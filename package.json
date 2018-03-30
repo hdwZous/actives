@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.1.0",
+    "axios": "^0.17.1",
+    "classnames": "^2.2.5",
+    "material-ui": "^1.0.0-beta.20",
+    "rc-steps": "^3.0.0",
+    "react": "^16.0.0",
+    "react-datetime": "^2.11.0",
+    "react-dom": "^16.0.0",
+    "react-dropzone": "^4.2.3",
+    "react-persian-datepicker": "^3.0.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-spinkit": "^3.0.0",
+    "react-time": "^4.3.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

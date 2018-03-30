@@ -1,0 +1,82 @@
+.fa_scroll {
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  right: 0px;
+  bottom: 81px;
+  overflow: scroll-y;
+}
+
+.fa_steps {
+  margin: 30px 40px 0px;
+}
+
+.fa_result_content {
+  font-size: 16px;
+  color: #283039;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.fa_result_content span {
+  color: #0074ff;
+}
+
+.fa_cell_container {
+  height: 52px;
+  padding: 16px 30px;
+  position: relative;
+  color: #717580;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.fa_section_container {
+  height: 40px;
+  padding: 11px 30px;
+  background: #F6F8FC;
+  color: #BEC1C9;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.fa_money_col p {
+  width: 92px;
+  margin-left: -10px;
+}
+
+.fa_num_col p {
+  width: 92px;
+  margin-left: -10px;
+}
+
+.fa_status_col p {
+  width: 88px;
+  margin-left: -20px;
+}
+
+.fa_cell_line {
+  height: 1px;
+  background: #ECF0F9;
+}
+
+.media.fa_page {
+  font-size: 16px;
+  color: #283039;
+}
+
+.media.fa_page .media-body {
+  text-align: right;
+  color: #717580;
+}
+
+.media.fa_page .fa_price {
+  margin-right: 40px;
+  font-weight: 800;
+}
+
+.fa_red {
+  color: #F52F3E;
+}

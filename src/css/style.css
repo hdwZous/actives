@@ -1,0 +1,537 @@
+.line {
+  height: 1px;
+  background: #E0E6ED;
+}
+
+.top {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.bottom {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #e0e6ed;
+}
+
+.nav-link {
+  padding: 6px 15px;
+  font-size: 14px;
+}
+
+.nav-tabs li {
+  margin-right: 5px;
+}
+
+.nav-tabs .nav-item {
+  background: #F6F8FC;
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid #e0e6ed;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0074FF;
+  border-color: #e0e6ed #e0e6ed #fff;
+}
+
+.navMargin {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.ca-bottomBar {
+  height: 81px;
+  padding-right: 46px;
+  background-color: white;
+}
+
+.ca-bottomBar button {
+  font-size: 16px;
+  padding: 0px 30px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.my-outline-secondary {
+  border: 1px solid #E0E6ED;
+  border-radius: 2px;
+  background: #FFFFFF;
+  color: #283039;
+}
+
+.my-primary {
+  background: #0074FF;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+}
+
+.my-primary-noShadow {
+  background: #0074FF;
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+.fa-red {
+  color: #F52F3E;
+}
+
+.fa-blue {
+  color: #0074FF;
+}
+
+.fa-grey {
+  color: #BEC1CA;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.ca-section {
+  font-size: 12px;
+  color: #717580;
+}
+
+.ca-col0 {
+  width: 24px;
+}
+
+.ca-col1 {
+  width: 48px;
+}
+
+.ca-col1 p {
+  WebkitBoxOrient: vertical;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-height: 16px;
+}
+
+.ca-col2 {
+  width: 36px;
+}
+
+.ca-col2 i {
+  color: #BEC1CA;
+}
+
+.ca-col2 .img {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #E0E6ED;
+}
+
+.ca-col2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.ca-col2 .plus {
+  width: 100%;
+  height: 100%;
+  background-size: 30px 30px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtAgMAAABHdAoJAAAADFBMVEUAAAC/wcu/wsu+wcplt9mlAAAAA3RSTlMAgMBakZ4lAAAAI0lEQVQoz2MYwkDegUYc1tD8qaEwDv9/IEDnIJTR0DlDCgAApRIQr+8tlhgAAAAASUVORK5CYII=);
+}
+
+.ca-col2 .plus.enable:hover {
+  width: 100%;
+  height: 100%;
+  background-size: 30px 30px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtAgMAAABHdAoJAAAADFBMVEUAAAAAdv8Adf8AdP9Eht+AAAAAA3RSTlMAgMBakZ4lAAAAI0lEQVQoz2MYwkDegUYc1tD8qaEwDv9/IEDnIJTR0DlDCgAApRIQr+8tlhgAAAAASUVORK5CYII=);
+}
+
+.ca-col3 {
+  width: 120px;
+}
+
+.ca-col4 {
+  width: 120px;
+}
+
+.ca-col5 {
+  width: 120px;
+}
+
+.ca-col6 {
+  width: 120px;
+}
+
+.ca-col7 {
+  width: 120px;
+}
+
+.ca-col8 {
+  width: 700px;
+}
+
+.ca-col9 {
+  width: 30px;
+}
+
+.ca-col10 {
+  width: 45px;
+}
+
+.ca-icon {
+  font-size: 14px;
+}
+
+.jr_space {
+  width: 20px;
+  height: 1px;
+}
+
+.ca-row {
+  font-size: 12px;
+  color: #283039;
+}
+
+.ca-col0 span {
+  color: #F52F3E;
+}
+
+.ca-col0 {
+  text-align: center;
+}
+
+.ca-select-row{
+  width: 100%;
+  height: 32px;
+}
+
+.base-input {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #E0E6ED;
+}
+
+.base-input .media-body {
+  height: 100%;
+}
+
+.base-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 8px;
+}
+
+.base-input p {
+  color: #BEC1C9;
+  width: 25px;
+  text-align: center;
+}
+
+.base-input .label {
+  height: 100%;
+}
+
+.base-input input:disabled {
+  background-color: transparent;
+  color: #BEC1CA;
+}
+
+.ca-tc {
+  text-align: center;
+}
+
+.ca-border {
+  border: 1px solid #E0E6ED;
+}
+
+.ca-greyBg {
+  background-color: #F6F8FC;
+}
+
+.ca-row1 {
+ height: 32px;
+}
+
+.placeholder_color {
+  color: #BEC1CA;
+}
+
+.ca-row-h{
+  height: 20px;
+}
+
+.time_slelect {
+  position: relative;
+}
+
+.time_slelect_a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.ca_margin_right_40 {
+  margin-right: 40px;
+}
+
+
+.jr_breadcrumb {
+  color: #283039;
+}
+
+.jr_breadcrumb .current {
+  color: #0074FF;
+}
+
+.jr_breadcrumb i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+/*
+下面都是重新整理的
+*/
+
+/*公共弹窗大小*/
+.cm_full_background {
+  background-color: transparent;
+  min-height: 620px;
+  min-width: 1000px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.cm_full_container {
+  width: 1000px;
+  height: 620px;
+  background-color: white;
+  position: relative;
+}
+
+.cm_header {
+  position: relative;
+  height: 45px;
+  font-size: 16px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.05);
+  border-radius: 2px;
+}
+
+.cm_header p:first-child {
+  margin-left: 20px;
+}
+
+/*cm代表common的意思*/
+.cm_12_color_style {
+  font-size: 12px;
+  color: #717580;
+}
+
+/**/
+.cm_absolute_full {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+/*悬浮框的背景*/
+.cm_absolute_full_bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+/*悬浮框的大小*/
+.cm_fixed_bounds {
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+  border-radius: 2px;
+}
+
+/*悬浮框的p标签统一高度*/
+.cm_fixed_bounds p {
+  line-height: 26px;
+}
+
+/*日历选择器的宽度*/
+.cm_fixed_bounds .ant-calendar-picker {
+  width: 150px;
+}
+
+/*出去头和尾的fixed页面*/
+.cm_scroll_top_bottom_surplus {
+  position: absolute;
+  top: 47px;
+  bottom: 81px;
+  right: 8px;
+  left: 0px;
+  overflow-y: scroll;
+}
+
+/*间隔的宽度10px*/
+.cm_space_4 {
+  width: 4px;
+  height: 1px;
+}
+
+.cm_space_5 {
+  width: 5px;
+  height: 1px;
+}
+
+.cm_space_10 {
+  width: 10px;
+  height: 1px;
+}
+
+.cm_space_15 {
+  width: 15px;
+  height: 1px;
+}
+
+.cm_space_20 {
+  width: 20px;
+  height: 1px;
+}
+
+.cm_space_30 {
+  width: 30px;
+  height: 1px;
+}
+
+.cm_space_40 {
+  width: 40px;
+  height: 1px;
+}
+
+.cm_space_50 {
+  width: 50px;
+  height: 1px;
+}
+
+/*在文字前加*符号*/
+.cm_star {
+  position: relative;
+}
+
+/*在标签前面加上红色的***/
+.cm_star:before {
+  content: '*';
+  color: #F52F3E;
+  position: absolute;
+  left: -7px;
+}
+
+/*输入框都是这个宽高*/
+.cm_input {
+  width: 150px;
+  height: 26px;
+}
+
+.base-input.active {
+  background: #FFFFFF;
+  border: 1px solid #0074FF;
+  box-shadow: 0 1px 6px 0 rgba(0,116,255,0.30);
+}
+
+.base-input:not(.unHover):hover, .base-input:not(.unHover):focus {
+  background: #FFFFFF;
+  border: 1px solid #0074FF;
+  box-shadow: 0 1px 6px 0 rgba(0,116,255,0.30);
+}
+
+/*满屏的fixed*/
+.cm_full_fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*点击按钮的默认蓝色*/
+.cm_a {
+  color: #0074FF;
+}
+
+/*细线 用在cell上*/
+.cm_slim_line {
+  height: 1px;
+  background: #ECF0F9;
+}
+
+/*菜单的按钮*/
+.cm_menus_btn {
+  font-size: 14px;
+  padding: 8px 22px;
+  line-height: 14px;
+}
+
+/*通用的行与行的间距，左边文字，右边内容的那种*/
+.cm_row {
+  margin-bottom: 15px;
+}
+
+/*通用的行高，左边文字，右边内容的那种*/
+.cm_row p {
+  line-height: 26px;
+}
+
+/*通用的布局间距，左边文字，右边内容的那种*/
+.cm_row>.media-body {
+  margin-left: 5px;
+}
+
+/*通用的左右边距，一般应该不出意外都是这个距离*/
+.cm_scroll {
+  padding: 0px 40px;
+}
+
+/*红色字体都用这个颜色*/
+.cm_red_color {
+  color: #F52F3E;
+}
+
+/*重新修改时间款择期的宽度*/
+.cm_datePicker .rdt {
+  width: 170px;
+}
+
+
+.cm_close {
+  background-size: 100% 100%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeBAMAAADJHrORAAAAElBMVEUAAAD///+EkqeEk6mDkaiDkacgo5xkAAAABXRSTlMAAZ2J71XolpwAAABrSURBVBjTYyAdMMJZAmDSxBDKFXYGS7sGQcQZVUPADNNQRTBfKDQYSgcJgKVB4lAGQhjKgorCFUCl4QoEwdIIBUpgaYSCULA0QgFCGsHHVI9pHqZ9mO5BuBfdPxj+RQsPjPBCC0+M8CYZAADE5Rt/3IGvfwAAAABJRU5ErkJggg==);
+}
+
+.cm_close:hover {
+  background-size: 100% 100%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeBAMAAADJHrORAAAAFVBMVEUAAAD////AzdvAzdzBzdzAzdy/zNuguHNnAAAABnRSTlMAAZ3vi4X797bqAAAAa0lEQVQY02MgHTDCWQJgMtgRyhUxBUubJUHEGdWSwQy3NEUwXygtBUonCYClQeJQBkIYyoKKwhVApeEKBMHSCAVKYGmEgjSwNEIBQhrBx1SPaR6mfZjuQbgX3T8Y/kULD4zwQgtPjPAmGQAAgm8fe5LIkRwAAAAASUVORK5CYII=);
+}
+
+.cm_question {
+  background-size: 100% 100%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAAQlBMVEUAAADZ3ufY3+fZ3+fZ3+fY4OjZ4OfZ3unb4unY3ubY3ub////a4Of29/n5+vvw8/bs7/Pc4enl6e7f5Orp7PHi5uxMt3RQAAAACnRSTlMA8ObIrYNJLyP5oxrFOQAAAJhJREFUGNN9UVsOwyAMS6GUR3h00N7/qtswGZuq1R/IWJYDDgHWaOWVNpYm3BoEqxNxW8LEsg0x/KLLbjjj+Rjud8gKrTBzbsgmsjAULrVwxsWSAelCYoQY0gjY6+vMHPtNk5rDd04givy3GMH89DY44dVCDz6EajJCI+bjDVbomT6yxd8wrEpv6AFoQXr419m139tdXPf2BLwDDgw3YxObAAAAAElFTkSuQmCC);
+}
+
+.cm_question:hover {
+  background-size: 100% 100%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAAaVBMVEUAAAArev8rev8qe/8qev8rev8re/8tev8rff8sfP8qev////86hP80gf/X5v+vzf+ZwP9Mj/90qP9Yl/9Bif8ufP/r8//o8P/c6f/O4P/G2//E2v+30v+Tu/+ItP+BsP9ro/9jnf9HjP8hlQ1pAAAACnRSTlMA+/DmyK2DSS8jvcjjMwAAAKVJREFUGNN9UdkOwyAMC4VSSjjWa/f9/x+5jhCB1Gl+CI5lJcIBgtFKCqm0gYK+tYy2Z7FrbEHTZVHYGiLJfXa6acju7xCa6a+IGEhvAQwZIsYx4pEaAzq9C+7XGnBOnQZFQ2/jWg/oUqdAlu07PBORICrx5IiJ4p0weMtexeodH0wVaKZ+9kw1GKavy5upob/RsifnVuWwDLbk8Duzbb5/b7G92wdVQw7EbIsdLQAAAABJRU5ErkJggg==);
+}

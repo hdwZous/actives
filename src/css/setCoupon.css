@@ -1,0 +1,43 @@
+.sc_bounds p {
+  line-height: 26px;
+}
+
+.sc_left_content {
+  width: 70px;
+  margin-right: 12px;
+  margin-left: 40px;
+  text-align: right;
+}
+
+.sc_margin_bottom {
+  margin-bottom: 14px;
+}
+
+.sc_margin_top {
+  margin-top: 30px;
+}
+
+.sc_scroll .ant-calendar-picker {
+  width: 150px;
+}
+
+.sc_select_time label:last-child {
+  margin-top: 50px;
+}
+
+.sc_select_time_wrap >span:last-child {
+  margin-left: 10px;
+}
+
+.sc_select_time label:last-child {
+  margin-top: 50px;
+}
+
+.sc_select_time_wrap {
+  position: absolute;
+  top: 40px;
+}
+
+.sc_select_time_wrap >span:last-child {
+  margin-left: 10px;
+}

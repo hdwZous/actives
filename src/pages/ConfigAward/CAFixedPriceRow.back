@@ -1,0 +1,51 @@
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+
+import IconMinus from '../CommonComponents/IconMinus';
+import JRSpace from '../CommonComponents/JRSpace';
+import BaseInput from '../CommonComponents/BaseInput';
+import Utils from '../../Utils';
+
+import '../../css/style.css';
+
+export default class CAFixedPriceRow extends Component {
+
+  static propTypes = {
+    data: PropTypes.object,
+    index: PropTypes.number.isRequired
+  }
+
+  click = ()=> {
+
+  }
+
+  render() {
+
+    let {
+      data,
+      index
+    } = this.props
+
+    return (
+      <div className="ca-row d-flex flex-row flex-nowrap align-items-center ca-select-row">
+        <p className="ca-col0"><span>*</span>{index}</p>
+        <JRSpace/>
+        <div className="ca-col1"><p style={{'WebkitBoxOrient': 'vertical'}}>{data.awardSkuName}</p></div>
+        <JRSpace/>
+        <div className="ca-col2"><div className="img"><img src={data.awardImg}/></div></div>
+        <JRSpace/>
+        <div className="ca-col3"><BaseInput type="text" value={Utils.format3Number(data.awardPerPrice, 2)} label="元" disabled status={'1'}/></div>
+        <JRSpace/>
+        <div className="ca-col4"><BaseInput type="text" value={Utils.format3Number(data.awardCount)} label="个" status={'2'}/></div>
+        <JRSpace/>
+        <div className="ca-col5"><BaseInput type="text" value={Utils.format3Number(data.awardTotalPrice, 2)} label="元" status={'2'}/></div>
+        <JRSpace/>
+        <div className="ca-col6"><BaseInput type="text" value={Utils.formatPercent(data.awardRate)} label="%" status={'2'}/></div>
+        <JRSpace/>
+        <div className="ca-col7"><BaseInput type="text" value={data.awardShowName} maxLength="4" status={'2'}/></div>
+        <JRSpace/>
+        <IconMinus className="font14"/>
+      </div>
+    )
+  }
+}

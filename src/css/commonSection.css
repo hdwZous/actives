@@ -1,0 +1,12 @@
+.cm_section {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #394658;
+  font-weight: bold;
+}
+
+.cm_cell_line {
+  height: 1px;
+  background: #ECF0F9;
+  margin-top: 10px;
+}

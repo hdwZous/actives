@@ -1,0 +1,23 @@
+import React, {Component} from 'react';
+
+import '../../css/style.css';
+import '../../css/ad.css';
+
+export default class ADInfo extends Component {
+
+  render() {
+    return (
+      <div className="ad_info_container">
+        <div className="ad_icon_name clearfix">
+          <img className="ad_icon"/>
+          <p>10元爱奇艺会员季卡代金券</p>
+        </div>
+        <p style={{marginTop: "20px"}}>使用条件&nbsp;&nbsp;&nbsp;<span>爱奇艺视频会员季卡代金券</span></p>
+        <p>有效期限&nbsp;&nbsp;&nbsp;<span>有效期至2017/12/31</span></p>
+        <p>适用平台&nbsp;&nbsp;&nbsp;<span>访问爱奇艺网站或爱奇艺app</span></p>
+        <p>奖品面额&nbsp;&nbsp;&nbsp;<span>10元</span></p>
+        <div className="ad_info_bottom_p clearfix"><p className="float-left">温馨提示&nbsp;&nbsp;&nbsp;</p><p className="ad_info_des">兑换成功后，请用手机浏览器访问<br/>http://www.baidu.com<br/>http://www.baidu.com</p></div>
+      </div>
+    )
+  }
+}

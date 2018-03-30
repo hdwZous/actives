@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+
+import IconAngleRight from '../CommonComponents/IconAngleRight';
+import Line from '../CommonComponents/Line';
+import Pagination from '../CommonComponents/Pagination';
+import ADInfo from './ADInfo'
+import ADSection from './ADSection'
+import ADCell from './ADCell'
+
+import '../../css/style.css';
+import '../../css/ad.css';
+
+class AwardDetail extends Component {
+  render() {
+
+    return (
+      <div className="ad_container">
+        <div className="jr_breadcrumb"><p>配置奖品<IconAngleRight className="ad_arrow_space"/><span>10元爱奇艺会员季卡代金券</span></p></div>
+        <p className="ad_detailTitle ad_title">奖品详情</p>
+        <Line/>
+        <ADInfo/>
+        <p className="ad_buyTitle ad_title">直接购买记录</p>
+        <ADSection/>
+        <ADCell/>
+        <ADCell/>
+        <ADCell/>
+        <ADCell/>
+        <ADCell/>
+        <ADCell/>
+        <Pagination className="ad_pagination" index={6} total={8}/>
+      </div>
+
+    );
+  }
+}
+
+export default AwardDetail;

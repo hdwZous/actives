@@ -1,0 +1,44 @@
+.sr_steps {
+  margin-top: 30px;
+}
+
+.sr_page {
+  margin-top: 20px;
+}
+
+.sr_page > .media {
+  margin-top: 14px;
+}
+
+.sr_page > .media .media-body {
+  margin-left: 5px;
+}
+
+.sr_page p {
+  line-height: 26px;
+}
+
+.sr_title {
+  width: 121px;
+  margin-left: 3px;
+}
+
+.flex-row .ant-radio-group {
+  width: 120px;
+}
+
+.sr_plus {
+  margin-left: 20px;
+}
+
+.sr_radio label:last-child {
+  margin-top: 27px;
+  margin-bottom: 10px;
+}
+
+.sr_refresh_btn {
+  width: 44px;
+  height: 26px;
+  border: 1px solid #E0E6ED;
+  border-radius: 2px;
+}

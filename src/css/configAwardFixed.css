@@ -1,0 +1,33 @@
+.caf_steps {
+  margin-top: 30px;
+}
+
+.caf_title {
+  width: 80px;
+  /*margin-left: -5px;*/
+}
+
+.flex-row .ant-radio-group {
+  width: 120px;
+}
+
+.caf_datePicker .rdt {
+  width: 170px;
+}
+
+.caf_award_info {
+  width: 350px;
+}
+
+.caf_award_desc {
+  color: #283039;
+}
+
+.caf_select_award {
+  WebkitBoxOrient: vertical;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-height: 16px;
+}

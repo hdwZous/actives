@@ -1,0 +1,26 @@
+import React, {Component} from 'react';
+
+import IconMinus from '../CommonComponents/IconMinus';
+import JRSpace from '../CommonComponents/JRSpace';
+import '../../css/style.css';
+
+export default class CARandomAddRow extends Component {
+
+  click = ()=> {
+  }
+
+  render() {
+    return (
+      <div className="ca-row d-flex flex-row flex-nowrap align-items-center ca-select-row">
+        <p className="ca-col0"><span>*</span>2</p>
+        <JRSpace/>
+        <div className="ca-col1">小金库</div>
+        <JRSpace/>
+        <div className="ca-col2"><div className="img"></div></div>
+        <JRSpace/>
+        <div className="ca-col8">随机金额可智能定价，请前往 <span className="fa-blue" onClick={this.click}>奖品设置</span></div>
+        <IconMinus className="font14"/>
+      </div>
+    )
+  }
+}

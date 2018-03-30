@@ -1,0 +1,71 @@
+.ui_boundsize {
+  width: 340px;
+  height: 500px;
+}
+.ui-content-img {
+  margin: 30px 30px 0;
+}
+.ui-content-img img {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  display: none;
+}
+#ui-content-upload-preview {
+  background-image: url("../img/ic_upload_grey.png");
+}
+#ui-content-upload-preview:hover {
+  background-image: url("../img/ic_upload_blue.png");
+}
+.ui-content-upload {
+  background-position: center;
+  background-size: 100%;
+  width: 280px;
+  height: 280px;
+  border-style: dashed;
+  border-color: #E0E6ED;
+  text-align: center;
+}
+.ui-content-upload-btn {
+  width: 100%;
+  height: 100%;
+}
+.ui-content-upload-btn-re-bg {
+  position: absolute;
+  width: 274px;
+  height: 274px;
+  background: rgba(0, 0, 0, 0.08);
+  display: none;
+}
+.ui-content-upload-btn-re {
+  position: absolute;
+  width: 86px;
+  height: 32px;
+  line-height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #E0E6ED;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #283039;
+  text-align: center;
+  left: 94px;
+  top: 121px;
+}
+.ui-content-upload-btn-re-c {
+  position: absolute;
+  margin: auto;
+}
+.ui-content-upload-invisible {
+  /*visibility: hidden;*/
+  opacity: 0;
+  z-index: 2;
+}
+.ui-content-conditions {
+  margin: 12px auto 30px;
+  font-size: 11px;
+  color: #F52F3E;
+}
+.ui-content-conditions p {
+  line-height: 18px;
+  text-align: center;
+}

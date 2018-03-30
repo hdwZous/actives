@@ -1,0 +1,152 @@
+.sad-container{
+}
+.sad-container-title {
+  margin: 10px 0;
+}
+.sad-container-content {
+  margin: 0 40px;
+}
+.sad-container-content-scroll {
+    height: 337px;
+    overflow-y: scroll;
+}
+.sad-btn-view {
+  background: #0074FF;
+  color: white;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+  text-decoration: none;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+}
+.sad-col1 {
+  width: 100%;
+  height: 32px;
+}
+.sad-col1 .ant-select-selection--single {
+  height: 32px;
+}
+.sad-col1 .ant-select-selection__rendered {
+  margin-top: 2px;
+}
+.sad-col2 {
+  width: 14px;
+}
+.sad-col3 {
+  width: 32px;
+}
+.sad-col4 {
+  width: 40px;
+}
+.sad-col5 {
+  width: 10px;
+}
+.sad-section {
+  padding-left: 30px;
+  font-size: 12px;
+  color: #BEC1C9;
+  height: 40px;
+}
+.sad-section p {
+  padding: 0;
+}
+.sad-row {
+  padding: 20px 0 20px 30px;
+  font-size: 12px;
+}
+.sad-row-col {
+  min-width: 64px;
+}
+.sad-row-col-desc {
+  min-width: 120px;
+}
+.sad-row div {
+  padding: 0;
+}
+.sad-row:hover {
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.05);
+}
+
+.sad-row:hover .btn-buy{
+  background: #0074FF;
+  color: white;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.sad-row:hover .btn-status{
+  color: #283039;
+}
+
+.sad-row:hover .title{
+  color: #283039;
+}
+
+.sad-row:hover .desc{
+  color: #283039;
+}
+
+.btn-buy {
+  color: #0074FF;
+  padding: 6px 14px;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  margin: auto;
+  z-index: 2;
+}
+
+.btn-status {
+  color: #717580;
+}
+.sad-icon {
+  width: 64px;
+  height: 64px;
+}
+.sad-icon img {
+  width: 100%;
+  height: 100%;
+}
+.title{
+  font-size: 14px;
+  color: #717580;
+  font-weight: bold;
+}
+.desc{
+  color: #717580;
+}
+.title-space {
+  height: 8px;
+}
+.desc-space {
+  height: 5px;
+}
+.sad-line {
+  height: 1px;
+  background: #ECF0F9;
+}
+.sad-line-sub {
+  height: 2px;
+  background: #E0E6ED;
+}
+.sad-title {
+  color: #283039;
+  font-size: 14px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.sad-search{
+  margin: 30px 0 15px;
+  font-size: 16px;
+  color: #283039;
+}
+.sad-search-label{
+  text-align: right;
+  font-size: 12px;
+  color: #717580;
+}
+.sad-search-label-num{
+  color: #BEC1C9;
+}

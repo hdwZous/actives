@@ -1,0 +1,370 @@
+body {
+  font-family: MicrosoftYaHei;
+  color: #283039;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+p {
+  margin: 0px;
+}
+
+label {
+  margin: 0px;
+}
+
+.container {
+  padding: 0px;
+  margin: 0px;
+  max-width: none;
+  width: auto;
+  height: auto;
+  background: transparent;
+}
+
+/*本来设计稿是这个字体，结果后来又都统一成微软雅黑了*/
+.font_family_ArialMT {
+  /*font-family: ArialMT;*/
+  font-family: MicrosoftYaHei;
+}
+
+.font_family_PingFangSC_Regular {
+  /*font-family: PingFangSC-Regular;*/
+  font-family: MicrosoftYaHei;
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding: 0px;
+}
+
+#root input::-webkit-input-placeholder,#root textarea::-webkit-input-placeholder {
+    color: #BEC1C9;
+}
+#root input:-moz-placeholder,#root textarea:-moz-placeholder {
+    color: #BEC1C9;
+}
+#root input::-moz-placeholder,#root textarea::-moz-placeholder {
+    color: #BEC1C9;
+}
+#root input:-ms-input-placeholder, #root textarea:-ms-input-placeholder {
+    color: #BEC1C9;
+}
+
+/*a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: #0074FF;
+}*/
+
+#root .ant-radio-checked .ant-radio-inner {
+  border-color: #0074FF;
+}
+
+#root .ant-radio-inner:after {
+  background-color: #0074FF;
+}
+
+.ant-radio-group >label >span:last-of-type {
+  margin-left: 2px;
+  margin-right: 12px;
+}
+
+.ant-checkbox-group >label >span:last-of-type {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+label.ant-radio-wrapper {
+  margin-right: 0px;
+}
+
+#root .ant-select, .ant-select-dropdown {
+  font-family: MicrosoftYaHei;
+}
+
+.ant-select-dropdown-menu-item-selected, .ant-select-dropdown-menu-item-selected:hover {
+  background-color: #F6F8FC;
+}
+
+.ant-select-dropdown-menu-item-active, .ant-select-dropdown-menu-item:hover {
+  background-color: #F6F8FC;
+}
+
+.ant-select-dropdown-menu-item-selected, .ant-select-dropdown-menu-item-selected:hover {
+  color: #0074FF;
+}
+
+.ant-select-dropdown {
+  font-size: 12px;
+}
+
+#root .ant-select-open .ant-select-selection {
+  border: 1px solid #0074FF;
+  box-shadow: 0 1px 6px 0 rgba(0,116,255,0.30);
+}
+
+#root .ant-radio-wrapper {
+  font-size: 12px;
+}
+
+#root .ant-select-selection--single {
+  height: 100%;
+}
+
+#root .ant-calendar-picker-icon:after {
+  color: #BEC1C9;
+}
+
+#root .ant-calendar-picker {
+  border-radius: 0px;
+  border: 1px solid #E0E6ED;
+  width: 190px;
+}
+
+#root .ant-select-selection {
+  border-radius: 0px;
+  border: 1px solid #E0E6ED;
+  width: 150px;
+}
+
+#root .ant-select-selection:focus, #root .ant-calendar-picker:focus,
+#root .ant-select-selection:hover, #root .ant-calendar-picker:hover {
+  border: 1px solid #0074FF;
+  box-shadow: 0 1px 6px 0 rgba(0,116,255,0.30)
+}
+
+#root .ant-select-selection input, #root .ant-calendar-picker input {
+  font-size: 12px;
+}
+
+#root .fontSize_14 .ant-select-selection input, #root .fontSize_14 .ant-calendar-picker input {
+  font-size: 14px;
+}
+
+#root .fontSize_14 .ant-calendar-range-picker-input {
+  font-size: 14px;
+}
+
+#root .fontSize_14 .ant-select-selection__rendered {
+  font-size: 14px;
+}
+
+#root .ant-input {
+  border: none;
+  height: 26px;
+
+  font-family: MicrosoftYaHei;
+}
+
+#root .big .ant-input {
+  border: none;
+  height: 30px;
+}
+
+#root .ant-select-selection__rendered {
+  line-height: 24px;
+}
+
+#root .ant-select {
+  font-size: 12px;
+}
+
+/*下面是修改日期选择器的样式*/
+#root .rdtPicker td.rdtActive, #root .rdtPicker td.rdtActive:hover {
+  background-color: #0074FF;
+}
+
+#root .rdtPicker {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  padding: 4px 7px;
+  width: 100%;
+  height: 28px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  background-image: none;
+  border-radius: 0px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  border: 1px solid #E0E6ED;
+}
+
+.rdt {
+  width: 150px;
+}
+
+#root .ant-pagination-item {
+  /*font-family: Arial-BoldMT;*/
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  font-size: 12px;
+  color: #717580;
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+  border-radius: 14px;
+  border: none;
+}
+
+#root .ant-pagination-prev {
+  color: #717580;
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+  border-radius: 14px;
+  border: none;
+}
+
+#root .ant-pagination-next {
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+  border-radius: 14px;
+  border: none;
+}
+
+#root .ant-pagination-jump-prev {
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+  border-radius: 14px;
+  border: none;
+}
+
+#root .ant-pagination-jump-next {
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+  border-radius: 14px;
+  border: none;
+}
+#root .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+  border-radius: 14px;
+  border: none;
+}
+
+#root .ant-pagination-item-active:focus, .ant-pagination-item-active:hover {
+  color: #0074FF;
+}
+
+#root .ant-pagination-item:focus, .ant-pagination-item:hover {
+  color: #0074FF;
+}
+
+#root .ant-pagination-item-active a, .ant-pagination-item-active:focus a, .ant-pagination-item-active:hover a {
+  color: #0074FF;
+}
+
+/*修改气泡的样式*/
+.ant-tooltip-placement-right .ant-tooltip-arrow, .ant-tooltip-placement-top .ant-tooltip-arrow, .ant-tooltip-placement-bottom .ant-tooltip-arrow, .ant-tooltip-placement-left .ant-tooltip-arrow {
+  border-right-color: white;
+}
+
+.ant-tooltip-inner {
+  color: #283039;
+  font-size: 12px;
+  background-color: white;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+.ant-modal-mask {
+  background-color: rgba(55, 55, 55, 0.6);
+}
+
+.ant-calendar .ant-calendar-ok-btn {
+  background: #0074FF;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+  color: white;
+}
+
+.ant-calendar .ant-calendar-ok-btn:hover, .ant-calendar .ant-calendar-ok-btn:focus {
+  background: #006DEF;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+  color: white;
+}
+
+.ant-btn-primary {
+  background: #0074FF;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 0px 30px;
+  height: 40px;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  background: #006DEF;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: #006DEF;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background: #006EEF;
+  box-shadow: inset 0 5px 10px 0 rgba(0,0,0,0.10);
+  border-radius: 2px;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus {
+  background: #F6F8FC;
+  border: 1px solid #E0E6ED;
+  border-radius: 2px;
+  color: #283039;
+  box-shadow: none;
+}
+
+.btn-outline-secondary:not([disabled]):not(.disabled).active, .btn-outline-secondary:not([disabled]):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+  background: #F6F8FC;
+  border: 1px solid #E0E6ED;
+  box-shadow: inset 0 3px 10px 0 rgba(0,0,0,0.05);
+  border-radius: 2px;
+  color: #283039;
+}
+
+HTML {
+  scrollbar-face-color: #C1C4CC;
+  scrollbar-base-color: rgba(0, 0, 0, 0);
+  scrollbar-3dlight-color: #C1C4CC;
+  scrollbar-highlight-color: rgba(0, 0, 0, 0);
+  scrollbar-track-color: white;
+  scrollbar-arrow-color: white;
+  scrollbar-shadow-color: #C1C4CC;
+  scrollbar-dark-shadow-color: red;
+}
+
+::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 6px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    background: #C1C4CC;
+}
+
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    /*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,193 @@
+.ad_margin_top {
+  margin-top: 30px;
+}
+
+.ad_margin_bottom {
+  margin-bottom: 10px;
+  color: #283039;
+}
+
+.ad_left_content {
+  margin-right: 10px;
+  color: #717580;
+}
+
+.ad_margin_bottom p {
+  /*color: #283039;*/
+}
+
+.ad_container_detail {
+  padding: 20px 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.ad_container_info {
+  padding: 60px 60px;
+}
+
+.ad_arrow_space {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.ad_title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.ad_detailTitle {
+  margin-top: 30px;
+}
+
+.ad_buyTitle {
+  margin-top: 40px;
+}
+
+.ad_info_container {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.05);
+}
+
+.ad_icon {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.ad_icon_name {
+  margin: 0 0 30px;
+}
+
+.ad_icon_name p {
+  margin-left: 60px;
+  font-size: 18px;
+  padding-top: 7px;
+  /*padding-left: 20px;*/
+  color: #283039;
+  font-weight: bold;
+}
+
+.ad_info_container > p, .ad_info_bottom_p {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.ad_info_bottom_p {
+  padding-bottom: 30px;
+}
+
+.ad_info_des {
+  margin-left: 58px;
+}
+
+.ad_section_container {
+  height: 40px;
+  padding: 11px 30px;
+  background: #F6F8FC;
+  color: #BEC1C9;
+}
+
+.ad_cell_container {
+  height: 52px;
+  padding: 16px 30px;
+  position: relative;
+  color: #717580;
+}
+
+.ad_cell_container:hover {
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.05);
+  color: black;
+}
+
+.ad_cell_container:hover .ad_cell_btn, .ad_cell_container:focus .ad_cell_btn {
+  background: #0074FF;
+  color: white;
+  box-shadow: 0 4px 6px 0 rgba(0,116,255,0.30);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.ad_cell_line {
+  height: 1px;
+  background: #ECF0F9;
+}
+
+.ad_margin_left_20 {
+  margin-left: 20px;
+}
+
+.ad_money_col p {
+  width: 92px;
+  margin-left: -10px;
+}
+
+.ad_num_col p {
+  width: 92px;
+  margin-left: -10px;
+}
+
+.ad_status_col p {
+  width: 88px;
+  margin-left: -20px;
+}
+
+.ad_cell_btn {
+  padding: 5px 10px;
+}
+
+.ad_cell_btn_margin_10px {
+  margin-left: -10px;
+}
+
+.ad_cell_btn_blue {
+  color: #0074FF;
+}
+
+.ad_pagination {
+  margin-top: 25px;
+  margin-bottom: 80px;
+  /*font-family: ArialMT;*/
+  font-family: MicrosoftYaHei;
+}
+
+.ad_pagination .page-link {
+  width: 28px;
+  height: 28px;
+  padding: 0px;
+  line-height: 28px;
+  text-align: center;
+  color: #717580;
+  border: none;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.05);
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.ad_pagination .page-item.active .page-link {
+  background-color: white;
+  color: #0074FF;
+}
+
+.ad_pagination .page-item:first-child .page-link {
+  border-radius: 50%;
+}
+
+.ad_pagination .page-item:last-child .page-link {
+  border-radius: 50%;
+}
+
+.ad_pagination .more {
+  padding: 0px;
+  line-height: 23px;
+  text-align: center;
+  color: #717580;
+  margin-left: 5px;
+  margin-right: -5px;
+}
+
+.ad-bottom {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-top: 60px;
+}

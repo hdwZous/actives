@@ -1,0 +1,18 @@
+.bc_select_time label:last-child {
+  margin-top: 50px;
+}
+
+.bc_select_time_wrap {
+  position: absolute;
+  top: 40px;
+}
+
+.bc_select_time_wrap >span:last-child {
+  margin-left: 10px;
+}
+
+.bc_left_content {
+  width: 50px;
+  margin-left: 90px;
+  margin-right: 20px;
+}

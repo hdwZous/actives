@@ -1,0 +1,97 @@
+.er_section {
+  margin-top: 50px;
+  height: 40px;
+  background: #F6F8FC;
+  font-size: 14px;
+  color: #BEC1C9;
+  line-height: 40px;
+}
+
+.er_cell {
+  height: 52px;
+  line-height: 52px;
+  /*font-family: Arial-BoldMT;*/
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  font-size: 14px;
+  color: #717580;
+  position: relative;
+}
+
+.er_first_col1 {
+  -ms-flex: 0 0 28.166667%;
+      flex: 0 0 28.166667%;
+  max-width: 28.166667%;
+}
+
+.er_first_col2 {
+  -ms-flex: 0 0 19.666667%;
+      flex: 0 0 19.666667%;
+  max-width: 0 0 19.666667%;
+}
+
+.er_first_col3 {
+  -ms-flex: 0 0 21.166667%;
+      flex: 0 0 21.166667%;
+  max-width: 0 0 21.166667%;
+}
+
+.er_first_col4 {
+  -ms-flex: 0 0 21.166667%;
+      flex: 0 0 21.166667%;
+  max-width: 0 0 21.166667%;
+}
+
+.er_first_col5 {
+  -ms-flex: 0 0 15.833333%;
+      flex: 0 0 15.833333%;
+  max-width: 0 0 15.833333%;
+}
+
+.er_first_col6 {
+  -ms-flex: 0 0 16.000000%;
+      flex: 0 0 16.000000%;
+  max-width: 0 0 16.000000%;
+}
+
+.er_second_col1 {
+  -ms-flex: 0 0 19.583333%;
+      flex: 0 0 19.583333%;
+  max-width: 19.583333%;
+}
+
+.er_second_col2 {
+  -ms-flex: 0 0 17.250000%;
+      flex: 0 0 17.250000%;
+  max-width: 17.250000%;
+}
+
+.er_second_col3 {
+  -ms-flex: 0 0 14.500000%;
+      flex: 0 0 14.500000%;
+  max-width: 0 0 14.500000%;
+}
+
+.er_second_col4 {
+  -ms-flex: 0 0 14.500000%;
+      flex: 0 0 14.500000%;
+  max-width: 0 0 14.500000%;
+}
+
+.er_second_col5 {
+  -ms-flex: 0 0 13.000000%;
+      flex: 0 0 13.000000%;
+  max-width: 0 0 13.000000%;
+}
+
+.er_second_col6 {
+  -ms-flex: 0 0 13.000000%;
+      flex: 0 0 13.000000%;
+  max-width: 0 0 13.000000%;
+}
+
+.er_second_col7 {
+  -ms-flex: 0 0 14.166667%;
+      flex: 0 0 14.166667%;
+  max-width: 0 0 14.166667%;
+}

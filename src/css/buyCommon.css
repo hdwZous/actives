@@ -1,0 +1,51 @@
+.cm_buy_boundsize {
+  width: 560px;
+  height: 620px;
+}
+
+.cm_buy_bottom_bar {
+  padding-right: 40px;
+  background-color: white;
+}
+
+.cm_buy_bottom_bar button {
+  margin-left: 20px;
+  width: 80px;
+}
+
+.cm_buy_icon {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cm_buy_icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.cm_buy_title {
+  font-size: 18px;
+  color: #283039;
+  font-weight: bold;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.cm_buy_left_content {
+  width: 140px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.cm_buy_right_content {
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.cm_buy_margin_bottom {
+  margin-bottom: 10px;
+}
+
+.cm_buy_margin_top {
+  margin-top: 30px;
+}
